@@ -1,8 +1,8 @@
 spring:
   application:
-    name: ms-refreshable-config-client
+    name: service1
   cloud:
     config:
-      uri: http://config-server:8100
+      uri: http://configserver:8100
   profiles:
     active: development
